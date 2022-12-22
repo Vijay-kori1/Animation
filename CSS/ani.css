@@ -1,0 +1,79 @@
+#x{
+    transform: translateX(200px);
+    transition: 5s;
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-direction: alternate;
+}
+
+@keyframes ani{
+    from{background-color: bisque;}
+    to{background-color: blueviolet;}
+    from{color: blue;}
+    to{color: darkorange;}
+}
+#y{
+    transform: translateY(200px);
+    transition: 5s;
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-direction: alternate;
+}
+#tr{
+    transform: translate(200px,200px);
+    transition: 5s;
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-direction: alternate;
+}
+#ro{
+    transform: rotate(360deg);
+    transition: 15s;
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-direction: alternate;
+}
+#scx{
+    transform: scaleX(-1);
+    transition: 15s;
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-direction: alternate;
+}
+#scy{
+    transform: scaleY(-1);
+    transition: 15s;
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-direction: alternate;
+}
+#skx{
+    transform: skewX(20deg);
+    transition: 5s;
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-direction: alternate;
+}
+#sky{
+    transform: skewY(20deg);
+    transition: 5s;
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-direction: alternate;
+}
+#sk{
+    transform: skew(20deg,20deg);
+    transition: 5s;
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-direction: alternate;
+}
