@@ -1,6 +1,5 @@
 #x{
-    transform: translateX(200px);
-    transition: 5s;
+
     animation-name: ani;
     animation-duration: 15s;
     animation-delay: 1s;
@@ -9,80 +8,144 @@
 }
 
 @keyframes ani{
-    from{background-color: bisque;}
+    from{background-color: bisque;
+        transform: translateX(200px);
+        transition: 5s;}
+    to{background-color: blueviolet;}
+    from{color: blue;}
+    to{color: darkorange;}
+
+}
+#y{
+
+    animation-name: ani1;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+@keyframes ani1{
+    from{background-color: bisque;
+        transform: translateY(200px);
+    transition: 5s;}
+    to{background-color: blueviolet;}
+    from{color: blue;}
+    to{color: darkorange;}
+
+}
+#tr{
+
+    animation-name: ani2;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+@keyframes ani2{
+    from{    transform: translate(200px,200px);
+        transition: 5s;
+    transition: 5s;}
+    to{background-color: blueviolet;}
+    from{color: blue;}
+    to{color: darkorange;}
+
+}
+#ro{
+
+    animation-name: ani3;
+    animation-duration: 15s;
+    animation-delay: 1s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+@keyframes ani3{
+    from{    transform: rotate(360deg);
+        transition: 15s;
+    transition: 5s;}
     to{background-color: blueviolet;}
     from{color: blue;}
     to{color: darkorange;}
 }
-#y{
-    transform: translateY(200px);
-    transition: 5s;
-    animation-name: ani;
-    animation-duration: 15s;
-    animation-delay: 1s;
-    animation-iteration-count: 3;
-    animation-direction: alternate;
-}
-#tr{
-    transform: translate(200px,200px);
-    transition: 5s;
-    animation-name: ani;
-    animation-duration: 15s;
-    animation-delay: 1s;
-    animation-iteration-count: 3;
-    animation-direction: alternate;
-}
-#ro{
-    transform: rotate(360deg);
-    transition: 15s;
-    animation-name: ani;
-    animation-duration: 15s;
-    animation-delay: 1s;
-    animation-iteration-count: 3;
-    animation-direction: alternate;
-}
+
 #scx{
-    transform: scaleX(-1);
-    transition: 15s;
-    animation-name: ani;
+
+    animation-name: ani4;
     animation-duration: 15s;
     animation-delay: 1s;
     animation-iteration-count: 3;
     animation-direction: alternate;
 }
+@keyframes ani4{
+    from{    transform: scaleX(-1);
+        transition: 15s;
+    transition: 5s;}
+    to{background-color: blueviolet;}
+    from{color: blue;}
+    to{color: darkorange;}
+}
+
 #scy{
     transform: scaleY(-1);
     transition: 15s;
-    animation-name: ani;
+    animation-name: ani5;
     animation-duration: 15s;
     animation-delay: 1s;
     animation-iteration-count: 3;
     animation-direction: alternate;
+}
+@keyframes ani5{
+    from{    transform: scaleY(-1);
+        transition: 15s;
+    transition: 5s;}
+    to{background-color: blueviolet;}
+    from{color: blue;}
+    to{color: darkorange;}
 }
 #skx{
-    transform: skewX(20deg);
-    transition: 5s;
-    animation-name: ani;
+
+    animation-name: ani6;
     animation-duration: 15s;
     animation-delay: 1s;
     animation-iteration-count: 3;
     animation-direction: alternate;
+}
+@keyframes ani6{
+    from{    transform: skewX(20deg);
+        transition: 5s;
+    transition: 5s;}
+    to{background-color: blueviolet;}
+    from{color: blue;}
+    to{color: darkorange;}
 }
 #sky{
-    transform: skewY(20deg);
-    transition: 5s;
-    animation-name: ani;
+
+    animation-name: ani7;
     animation-duration: 15s;
     animation-delay: 1s;
     animation-iteration-count: 3;
     animation-direction: alternate;
 }
+@keyframes ani7{
+    from{    transform: skewY(20deg);
+        transition: 5s;
+    transition: 5s;}
+    to{background-color: blueviolet;}
+    from{color: blue;}
+    to{color: darkorange;}
+}
 #sk{
-    transform: skew(20deg,20deg);
-    transition: 5s;
-    animation-name: ani;
+
+    animation-name: ani8;
     animation-duration: 15s;
     animation-delay: 1s;
     animation-iteration-count: 3;
     animation-direction: alternate;
+}
+@keyframes ani8{
+    from{    transform: skew(20deg,20deg);
+        transition: 5s;
+    transition: 5s;}
+    to{background-color: blueviolet;}
+    from{color: blue;}
+    to{color: darkorange;}
 }
