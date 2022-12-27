@@ -85,8 +85,7 @@
 }
 
 #scy{
-    transform: scaleY(-1);
-    transition: 15s;
+
     animation-name: ani5;
     animation-duration: 15s;
     animation-delay: 1s;
